@@ -1,0 +1,40 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Invariant cross section of electrons from charm decay vs $p_T$
+XLabel=$p_T$ (GeV)
+YLabel=$Ed\sigma^3/dp^3 (mb/GeV^2)$
+RatioPlotYMin=0.3
+RatioPlotYMax=1.25
+DrawOnly=/PHENIX_2009_I816469/d04-x01-y01 //home/couga/workdir/rivet-bootstrap-install/Rivet-3.1.6/RIVETanalyses/RIVETAnalyses/PHENIX_2009_I816469/Output.yoda/PHENIX_2009_I816469/d04-x01-y01
+LegendOnly=/PHENIX_2009_I816469/d04-x01-y01 //home/couga/workdir/rivet-bootstrap-install/Rivet-3.1.6/RIVETanalyses/RIVETAnalyses/PHENIX_2009_I816469/Output.yoda/PHENIX_2009_I816469/d04-x01-y01
+RatioPlot=1
+RatioPlotReference=/PHENIX_2009_I816469/d04-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /PHENIX_2009_I816469/d04-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/PHENIX_2009_I816469/d04-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+00	3.000000e+00	4.270000e-06	3.960000e-06	4.090000e-06
+3.000000e+00	4.000000e+00	4.000000e-07	7.800000e-08	1.120000e-07
+4.000000e+00	5.000000e+00	3.280000e-08	1.500000e-08	2.220000e-08
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/couga/workdir/rivet-bootstrap-install/Rivet-3.1.6/RIVETanalyses/RIVETAnalyses/PHENIX_2009_I816469/Output.yoda/PHENIX_2009_I816469/d04-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/couga/workdir/rivet-bootstrap-install/Rivet-3.1.6/RIVETanalyses/RIVETAnalyses/PHENIX_2009_I816469/Output.yoda/PHENIX_2009_I816469/d04-x01-y01
+ScaledBy=6.68450760985960496e-08
+Title=Output
+# xlow	 xhigh	 val	 errminus	 errplus
+2.000000e+00	3.000000e+00	3.803254e-06	3.310308e-07	3.310308e-07
+3.000000e+00	4.000000e+00	4.589363e-07	9.569484e-08	9.569484e-08
+4.000000e+00	5.000000e+00	1.526143e-08	1.526143e-08	1.526143e-08
+# END HISTO1D
+
